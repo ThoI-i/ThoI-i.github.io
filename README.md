@@ -23,6 +23,7 @@
 ![메인 페이지](https://cdn.discordapp.com/attachments/1300055715003633667/1300779047084757023/image.png?ex=67221464&is=6720c2e4&hm=0e55d7e46f00ecd15d2ea56f005253598e0a3fcac5a228c244dba6b1399de305&.png.)
 
 ## **[뚝딱뚝딱 성장기](https://www.kakaocorp.com/page/story/history)**
+![뚝딱뚝딱 성장기](https://cdn.discordapp.com/attachments/1300055715003633667/1301047516246310993/image.png?ex=67230e6c&is=6721bcec&hm=858b92f8cb5cdb7a0a613c29c86a1cf09117168861771bccaf96493d6f55e3f0&.png)
 
 ## **[콘텐츠 저장소](https://www.kakaocorp.com/page/story/archives)**
 
@@ -55,7 +56,7 @@ color: inherit; /* 링크 색상을 부모 색상과 동일하게 설정 */
   ```
 </details> 
 <details>
-<summary>박스 내 텍스트/이미지가 절반 영역하도록 설정정</summary>
+<summary>박스 내 텍스트/이미지가 절반 영역하도록 설정</summary>
 1. Flexbox: .img-box에 display: flex;와 flex-direction: column;을 사용하여 텍스트와 이미지를 세로로 배치합니다.
 2 . flex: 1: 각 요소에 flex: 1;을 설정하여 텍스트와 이미지가 각각의 높이를 절반씩 차지하도록 합니다.
 </details>
@@ -73,8 +74,10 @@ color: inherit; /* 링크 색상을 부모 색상과 동일하게 설정 */
 
 ### 💡느낀점
 ThoI-i
-- 시맨틱 구조 구성 후 CSS 작업에 진행했는데도 기눙구현을 위해 html 구조를 추가/삭제하는 경우가 발생 → 추후 작업 시 면밀한 구조 설계 필요성 체감
-- 배율 확대/축소 시 페이지 구조 흐트러짐 → 사용자 환경에 따른 반응형(미디어쿼리) 제작 필요성 확인
+- 시맨틱 구조 구성 후 CSS 작업에 진행했는데도 기눙구현을 위해 html 구조를 추가/삭제하는 경우가 발생 
+→ 추후 작업 시 면밀한 구조 설계 필요성 체감
+- 배율 확대/축소 시 페이지 구조 흐트러짐 
+→ 사용자 환경에 따른 반응형(미디어쿼리) 제작 필요성 확인
 - 유연한 사고 방식의 필요성<br>flex-direction: column; 을 통해 세로 배치 가능함, 해당 기능 잊어서 postion: relative + absolute만 사용.
 
 yujin-5
@@ -82,3 +85,4 @@ yujin-5
 - 비슷한 레이아웃의 경우 같은 클래스나 아이디를 부여하는 것이 효과적으로 작업 시간을 줄일 수 있다는 것을 체감함.
 
 parkchenui
+- 첫 프로젝트를 하면서 부족한 부분이 많았다. 파일 수정을 하고 나면 바로 커밋을 안한 점, 또한 태그와 클래스를 정확히 구별하지 못한 채 태그를 사용해서 코드를 만든 점 등이다.
