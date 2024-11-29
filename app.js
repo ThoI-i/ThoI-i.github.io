@@ -462,7 +462,7 @@
        const distance = 80; // 원의 거리
 
        // 초기 위치 버튼 중앙에 설정
-       colorCircle.style.left = `${centerX}px`;
+       colorCircle.style.left = `${centerX + 120}px`;
        colorCircle.style.top = `${centerY}px`;
 
        // 퍼질 위치 계산
