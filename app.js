@@ -466,7 +466,7 @@
        colorCircle.style.top = `${centerY}px`;
 
        // 퍼질 위치 계산
-       const targetX = centerX + distance * Math.cos(radians) + 35;
+       const targetX = centerX + distance * Math.cos(radians) - 35;
        const targetY = centerY - distance * Math.sin(radians) + 10; // Y는 위로 이동이므로 음수
 
        // 애니메이션 시작 시 위치 설정
